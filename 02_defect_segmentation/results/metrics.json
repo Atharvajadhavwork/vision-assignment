@@ -1,0 +1,64 @@
+{
+  "box": {
+    "precision": 0.7214,
+    "recall": 0.6622,
+    "mAP50": 0.7254,
+    "mAP50-95": 0.5316
+  },
+  "mask": {
+    "precision": 0.7156,
+    "recall": 0.6081,
+    "mAP50": 0.6298,
+    "mAP50-95": 0.217
+  },
+  "inference_ms_per_image": 1.79,
+  "dataset": {
+    "train": {
+      "images": 3717,
+      "cracks": 4893
+    },
+    "val": {
+      "images": 200,
+      "cracks": 249
+    },
+    "test": {
+      "images": 112,
+      "cracks": 148
+    },
+    "median_crack_area_pct": 1.14
+  },
+  "sample_damage_estimate": {
+    "pred_01.jpg": {
+      "cracks": 0,
+      "damaged_area_pct": 0.0
+    },
+    "pred_02.jpg": {
+      "cracks": 1,
+      "damaged_area_pct": 2.58
+    },
+    "pred_03.jpg": {
+      "cracks": 1,
+      "damaged_area_pct": 1.42
+    },
+    "pred_04.jpg": {
+      "cracks": 1,
+      "damaged_area_pct": 1.76
+    },
+    "pred_05.jpg": {
+      "cracks": 1,
+      "damaged_area_pct": 1.35
+    },
+    "pred_06.jpg": {
+      "cracks": 1,
+      "damaged_area_pct": 1.82
+    },
+    "pred_07.jpg": {
+      "cracks": 2,
+      "damaged_area_pct": 1.56
+    },
+    "pred_08.jpg": {
+      "cracks": 1,
+      "damaged_area_pct": 1.41
+    }
+  }
+}

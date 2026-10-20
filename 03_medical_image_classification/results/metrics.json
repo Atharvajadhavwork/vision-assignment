@@ -1,0 +1,32 @@
+{
+  "accuracy": 0.9439,
+  "sensitivity_recall_pneumonia": 0.9949,
+  "specificity": 0.859,
+  "precision_pneumonia": 0.9216,
+  "f1_pneumonia": 0.9568,
+  "roc_auc": 0.9954,
+  "confusion_matrix": [
+    [
+      201,
+      33
+    ],
+    [
+      2,
+      388
+    ]
+  ],
+  "dataset": {
+    "train": {
+      "normal": 1214,
+      "pneumonia": 3494
+    },
+    "val": {
+      "normal": 135,
+      "pneumonia": 389
+    },
+    "test": {
+      "normal": 234,
+      "pneumonia": 390
+    }
+  }
+}

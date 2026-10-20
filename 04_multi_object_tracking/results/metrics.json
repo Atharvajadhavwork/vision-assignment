@@ -1,0 +1,78 @@
+{
+  "detector": "yolo11m.pt",
+  "overall": {
+    "ByteTrack": {
+      "MOTA": 0.4093,
+      "MOTP_iou_dist": 0.1893,
+      "IDF1": 0.523,
+      "ID_switches": 799,
+      "false_positives": 15573,
+      "misses": 48843,
+      "mostly_tracked": 131,
+      "mostly_lost": 136,
+      "avg_fps": 33.2
+    },
+    "BoT-SORT": {
+      "MOTA": 0.4219,
+      "MOTP_iou_dist": 0.1837,
+      "IDF1": 0.5521,
+      "ID_switches": 557,
+      "false_positives": 15881,
+      "misses": 47391,
+      "mostly_tracked": 151,
+      "mostly_lost": 124,
+      "avg_fps": 18.1
+    }
+  },
+  "dataset": [
+    {
+      "sequence": "MOT16-02",
+      "frames": 600,
+      "pedestrian_ids": 54,
+      "boxes": 17833,
+      "people_per_frame": 29.7
+    },
+    {
+      "sequence": "MOT16-04",
+      "frames": 1050,
+      "pedestrian_ids": 83,
+      "boxes": 47557,
+      "people_per_frame": 45.3
+    },
+    {
+      "sequence": "MOT16-05",
+      "frames": 837,
+      "pedestrian_ids": 125,
+      "boxes": 6818,
+      "people_per_frame": 8.1
+    },
+    {
+      "sequence": "MOT16-09",
+      "frames": 525,
+      "pedestrian_ids": 25,
+      "boxes": 5257,
+      "people_per_frame": 10.0
+    },
+    {
+      "sequence": "MOT16-10",
+      "frames": 654,
+      "pedestrian_ids": 54,
+      "boxes": 12318,
+      "people_per_frame": 18.8
+    },
+    {
+      "sequence": "MOT16-11",
+      "frames": 900,
+      "pedestrian_ids": 69,
+      "boxes": 9174,
+      "people_per_frame": 10.2
+    },
+    {
+      "sequence": "MOT16-13",
+      "frames": 750,
+      "pedestrian_ids": 107,
+      "boxes": 11450,
+      "people_per_frame": 15.3
+    }
+  ]
+}

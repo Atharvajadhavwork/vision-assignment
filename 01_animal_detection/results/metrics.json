@@ -1,0 +1,42 @@
+{
+  "precision": 0.963,
+  "recall": 0.9353,
+  "mAP50": 0.971,
+  "mAP50-95": 0.828,
+  "per_class_mAP50-95": {
+    "buffalo": 0.8408,
+    "elephant": 0.774,
+    "rhino": 0.9126,
+    "zebra": 0.7845
+  },
+  "inference_ms_per_image": 2.51,
+  "dataset": {
+    "train": {
+      "images": 1052,
+      "boxes": {
+        "buffalo": 399,
+        "zebra": 575,
+        "rhino": 399,
+        "elephant": 558
+      }
+    },
+    "val": {
+      "images": 225,
+      "boxes": {
+        "zebra": 114,
+        "rhino": 85,
+        "elephant": 91,
+        "buffalo": 89
+      }
+    },
+    "test": {
+      "images": 227,
+      "boxes": {
+        "zebra": 135,
+        "elephant": 99,
+        "rhino": 75,
+        "buffalo": 66
+      }
+    }
+  }
+}

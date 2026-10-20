@@ -1,0 +1,9 @@
+ultralytics>=8.3
+torch>=2.7
+torchvision
+lap
+motmetrics @ git+https://github.com/cheind/py-motmetrics.git  # PyPI 1.4.0 breaks with numpy 2
+pandas
+opencv-python
+matplotlib
+numpy

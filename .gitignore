@@ -1,0 +1,7 @@
+# datasets and training runs are large; they are downloaded/re-created by the scripts
+datasets/
+runs/
+*.pt
+__pycache__/
+*.npz
+run.log
